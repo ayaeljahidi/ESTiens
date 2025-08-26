@@ -32,3 +32,11 @@ Le projet est basé sur le diagramme UML suivant :
 - 🗂 **UML** : Umbrello  
   ```bash
   sudo apt install umbrello -y
+
+---
+## 🖥 Exemple d’exécution
+![📊 Diagramme UML](test.png)
+
+
+  
+
