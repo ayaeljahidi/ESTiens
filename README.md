@@ -19,28 +19,8 @@ Gestion dynamique des objets avec une ArrayList.
 Affichage des informations sur les personnes (nom, année, salaire, section, moyenne, origine…).
 
 📂 Diagramme de classes
-
-Le projet est basé sur le diagramme UML suivant :
-
-🛠 Structure des classes
-
-Personne
-Classe mère qui contient les attributs communs (nom, année).
-
-Secretaire
-Hérite de Personne, ajoute labo et salaire.
-
-Enseignant
-Hérite de Secretaire, ajoute section.
-
-Regulier
-Hérite de Personne, ajoute section, moyenne et un compteur d’étudiants.
-
-Echange
-Hérite de Regulier, ajoute origine.
-
+![Diagramme UML](diagramme_de_classe.png)
 📦 Technologies utilisées
-
 Langage : java 24.0.2(JDK 24)
 
 IDE : Eclipse
@@ -49,3 +29,6 @@ Paradigme : POO (héritage, encapsulation, polymorphisme, abstraction)
 
 Collections : ArrayList
 UML   : Umbrello (sudo apt install umbrello -y)
+
+Exécution 
+![Diagramme UML](test.png)
